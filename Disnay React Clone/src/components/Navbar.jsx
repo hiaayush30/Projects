@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className='flex justify-between py-2 px-3'>
       <div className='flex text-white items-center py-2 gap-10'>
         <img src={logo} alt='logo' className='h-12 max-sm:w-36 w-40'></img>
-        <div className='hidden md:flex flex-wrap gap-8'>
+        <div className='hidden md:flex max-sm:gap-2 flex-wrap gap-8'>
           {menu.map(item => {
             return <HeaderItem name={item.name} Icon={item.icon} />
           })}

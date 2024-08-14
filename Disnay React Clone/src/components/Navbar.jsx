@@ -36,7 +36,7 @@ const Navbar = () => {
           })}
         </div>
         {/* menu items for smaller screen */}
-        <div className='md:hidden flex flex-wrap gap-8'>
+        <div className='md:hidden flex max-sm:gap-2 flex-wrap gap-8'>
           {menu.map((item, index) => {
             if (index < 3) return <HeaderItem Icon={item.icon} />
           })}

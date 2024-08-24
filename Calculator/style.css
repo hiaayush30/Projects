@@ -60,7 +60,7 @@ body.light-mode .screen{
 
 
 #text {
-    padding: 5px;
+    padding: 15px;
     font-size: xx-large;
     display: flex;
     overflow: hidden;
@@ -122,4 +122,23 @@ body.light-mode #toggleMode{
 
 #toggleMode:hover {
     transform: scale(1.1);
+}
+
+@media (max-width:950px) {
+    .container{
+        width: 50vw;
+    }
+    .screen{
+        height: 5vh;
+    }
+}
+@media (max-width:600px) {
+    .container{
+        width: 70vw;
+    }
+}
+@media (max-width:400px) {
+    .container{
+        width: 90vw;
+    }
 }

@@ -167,9 +167,10 @@ footer{
     min-height: 20vh;
     background-color: #121212;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: white;
+    flex-wrap: wrap;
 }
 .projects{
     border-top: 1px solid white;
@@ -225,11 +226,19 @@ footer{
     transform: scale(1.1);
 }
 
+.links{
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 600px) {
     .skills{
         height: 120vh;
     }
     .contact{
         min-height: 70vh;
+    }
+    footer{
+        flex-direction: column;
     }
 }

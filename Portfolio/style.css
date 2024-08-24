@@ -66,6 +66,8 @@ main section{
     text-align: center;
     background-image: url('./images/bg1.svg') ;
     background-position: center; 
+    border-bottom: 1px solid white;
+    min-height: 70vh;
 }
 .form{
     display: inline-block;
@@ -112,8 +114,9 @@ form input{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     overflow-y: auto;
+    font-size: larger;
 }
 .skills{
     border-top: 1px solid white;
@@ -219,4 +222,10 @@ footer{
 .calculator .image:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .skills{
+        height: 120vh;
+    }
 }

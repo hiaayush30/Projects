@@ -67,7 +67,7 @@ main section{
     background-image: url('./images/bg1.svg') ;
     background-position: center; 
     border-bottom: 1px solid white;
-    min-height: 70vh;
+    min-height: 50vh;
 }
 .form{
     display: inline-block;
@@ -100,6 +100,7 @@ form input{
 }
 #error{
     color: red;
+    min-width: 80vw;
 }
 .box{
     background-image: url('./images/bg1.svg') ;
@@ -227,5 +228,8 @@ footer{
 @media (max-width: 600px) {
     .skills{
         height: 120vh;
+    }
+    .contact{
+        min-height: 70vh;
     }
 }

@@ -1,17 +1,17 @@
 const scrollAboutMe=function(){
-    const aboutMe=document.querySelector('.aboutMe').scrollIntoView({behavior:"smooth"})
+    document.querySelector('.aboutMe').scrollIntoView({behavior:"smooth"})
 }
 
 const scrollSkills=function(){
-    const aboutMe=document.querySelector('.skills').scrollIntoView({behavior:"smooth"})
+    document.querySelector('.skills').scrollIntoView({behavior:"smooth"})
 }
 
 const scrollProjects=function(){
-    const aboutMe=document.querySelector('.projects').scrollIntoView({behavior:"smooth"})
+    document.querySelector('.projects').scrollIntoView({behavior:"smooth"})
 }
 
 const scrollContact=function(){
-    const aboutMe=document.querySelector('.contact').scrollIntoView({behavior:"smooth"})
+    document.querySelector('.contact').scrollIntoView({behavior:"smooth"})
 }
 
 const handleSubmit=function(e){

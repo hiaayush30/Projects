@@ -10,20 +10,6 @@ document.getElementById('toggleMode').addEventListener('click', function () {
 const result = document.getElementById('text');
 const clear = document.getElementById('clear');
 const equals = document.getElementById('equals');
-const plus = document.getElementById('plus');
-const divide = document.getElementById('divide');
-const multiply = document.getElementById('multiply');
-const minus = document.getElementById('minus');
-const one = document.getElementById('one');
-const two = document.getElementById('two');
-const three = document.getElementById('three');
-const four = document.getElementById('four');
-const five = document.getElementById('five');
-const six = document.getElementById('six');
-const seven = document.getElementById('seven');
-const eight = document.getElementById('eight');
-const nine = document.getElementById('nine');
-const zero = document.getElementById('zero');
 
 clear.addEventListener('click', () => {
     result.innerHTML = '0';

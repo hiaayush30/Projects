@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: #121212;
+    color: white;
+}
+h3{
+    font-family: Kode Mono;
+}
+header{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+header h1{
+    font-family: Kode Mono;
+    transition: all 0.3s ease-in-out;
+}
+header h1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.options{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.options div{
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.options div:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+#aboutMe{
+    min-height: 100vh;
+    text-align: center;
+}
+main section{
+    text-align: center;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    padding-top: 35px;
+    text-align: center;
+    background-image: url('./images/bg1.svg') ;
+    background-position: center; 
+}
+.form{
+    display: inline-block;
+    border-radius: 5px;
+    height: 50vh;
+    width: 30vw;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+form input{
+    padding: 3px;
+    outline: none;
+}
+#submit{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #121212;
+    color: white;
+}
+#submit:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#error{
+    color: red;
+}
+.box{
+    background-image: url('./images/bg1.svg') ;
+    background-position: center; 
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.aboutMeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow-y: auto;
+}
+.skills{
+    border-top: 1px solid white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skills .text{
+    padding: 10px;
+}
+.skillHolder{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skillList{
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.skillList .imageholder{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.js .imageholder{
+    background-image: url('./images/js.jpeg');
+    background-position: center; 
+    background-size: cover;
+}
+.react .imageholder{
+    background-image: url('./images/react.png');
+    background-position: center; 
+    background-size: cover;
+}
+.node .imageholder{
+    background-image: url('./images/node.png');
+    background-position: center; 
+    background-size: cover;
+}
+footer{
+    min-height: 20vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.projects{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #161515;
+    min-height: 100vh;
+}
+.projects h3{
+    margin: 15px;
+    padding: 5px;
+}
+.projectList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.projectList div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.disney .image{
+    background-image: url('./images/disneyp.jpeg');
+    background-position: center; 
+    background-size: cover;
+    background-color: red;
+    height: 150px;
+    width: 250px;
+    border-radius: 3px;
+    transition: all 0.1s ease-in-out;
+}
+.disney .image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.calculator .image{
+    background-image: url('./images/calculator.png');
+    background-position: center; 
+    background-size: cover;
+    background-color: red;
+    height: 150px;
+    width: 250px;
+    border-radius: 3px;
+    transition: all 0.1s ease-in-out;
+}
+.calculator .image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

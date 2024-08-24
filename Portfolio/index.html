@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <div class="options">
+            <div onclick="scrollAboutMe()">About Me</div>
+            <div onclick="scrollSkills()">Skills</div>
+            <div onclick="scrollProjects()">My Projects</div>
+            <div onclick="scrollContact()">Contact Me</div>
+        </div>
+    </header>
+    <main>
+        <section class="aboutMe">
+            <div class="box aboutMeBox">
+              
+            </div>
+        </section>
+        <section class="skills">
+            <h3>My Skills</h3>
+            <div class="text"> I specialize in building dynamic and responsive frontend as well as backend web applications using React, JavaScript, and Node.js</div>
+            <div class="skillHolder">
+                <div class="react skillList">
+                    <div class="imageholder"></div>
+                    <div>React js</div>
+                </div>
+                <div class="js skillList">
+                    <div class="imageholder"></div>
+                    <div>Javascript</div>
+                </div>
+                <div class="node skillList">
+                    <div class="imageholder"></div>
+                    <div>Node and Express</div>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h3>My Projects</h3>
+            <div class="projectList">
+                <div class="disney">
+                    <a href="https://projects-wine-psi.vercel.app/" target="_blank"><div class="image" title="visit site"></div></a>
+                    <div>Responsive Disney App clone using React js</div>
+                </div>
+                <div class="calculator">
+                    <a href="" target="_blank"><div class="image" title="visit site"></div></a>
+                    <div>Calculator in HTML,CSS and Js (with Dark theme)</div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="form">
+                <h3>Contact Me</h3>
+            <form target="" onsubmit="handleSubmit(event)">
+                <label for="email">Email Id:</label>
+                <input id="email" name="email" type="email" placeholder="john@gmail.com">
+                <label for="contact">Contact Number:</label>
+                <input id="contact" name="contact" type="number" placeholder="000000000">
+                <div id="error"></div>
+                <input type="submit" id="submit">
+            </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>Thank you for visiting my portfolio &hearts;</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

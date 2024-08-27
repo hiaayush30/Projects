@@ -3,6 +3,7 @@ const checkAuthentication=require('../Middlewares/auth');
 const User = require('../Models/User');
 
 router.get('/',checkAuthentication,(req,res)=>{
+    console.log(req.user);
     res.status(200).json([
        {
         name:'mobile',
